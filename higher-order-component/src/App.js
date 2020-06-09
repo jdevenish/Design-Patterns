@@ -12,7 +12,8 @@ function App() {
             <p>Why: To share common code between components where other patterns are not suitable.</p>
             <p>Example: const IronMan = withSuit(TonyStark);</p>
         </div>
-        <div>
+        <div className="class-based">
+            <h3>Using class based components</h3>
             <ClickCounter/>
             <HoverCounter/>
         </div>
